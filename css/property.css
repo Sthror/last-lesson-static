@@ -1,0 +1,89 @@
+/* блок property */
+
+.property {
+    background: url(../images/tel_krugi.png) no-repeat;
+    background-position-x: right;
+    background-size: contain;
+    background-color: #7224EA;
+    padding: 75px 0;
+}
+
+.property__title {
+    font-size: 3.2rem;
+    color: #fff;
+    max-width: 490px;
+}
+
+.property__block {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    max-width: 770px;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding: 0;
+}
+
+.property__item {
+    background-color: #fff;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    padding: 35px;
+    margin-bottom: 45px;
+    width: 375px;
+    box-sizing: border-box;
+}
+
+.property__icon {
+    flex: 0 0 40px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    background-size: contain;
+}
+
+.property__icon.icon-calc {
+    background: url('../images/calc.svg') no-repeat;
+}
+
+.property__icon.icon-arrow {
+    background: url('../images/Group.svg') no-repeat;
+}
+
+.property__icon.icon-plane {
+    background: url('../images/bigprodaji.svg') no-repeat;
+}
+
+.property__icon.icon-money {
+    background: url('../images/pyb.svg') no-repeat;
+}
+
+@media(max-width: 990px) {
+    .property__block {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .property__title {
+        max-width: none;
+        text-align: center;
+    }
+    .property__btn {
+        margin: auto;
+    }
+}
+
+@media(max-width: 480px) {
+    .property__block {
+        padding: 0 10px;
+    }
+    .property__item {
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+
+/* блок property конец */

@@ -1,0 +1,111 @@
+html {
+    font-size: 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+p,
+a,
+li,
+div,
+span,
+i,
+b,
+input,
+.h2,
+h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #000000;
+}
+
+h2,
+.h2 {
+    font-weight: bold;
+    font-size: 3.2rem;
+    line-height: 4.2rem;
+}
+
+.h1,
+h1 {
+    font-family: Roboto Condensed;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 4.8rem;
+    line-height: 5.6rem;
+    text-transform: uppercase;
+    margin: 0;
+    color: #000000;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.btn {
+    display: block;
+    background: #000000;
+    box-shadow: 0px 16px 32px rgba(69, 90, 100, 0.4);
+    border-radius: 8px;
+    color: #fff;
+    padding: 15px 35px 15px 40px;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    font-weight: bold;
+    width: fit-content;
+    position: relative;
+    z-index: 3;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:after,
+.btn:before {
+    content: "";
+    background: #000000;
+    position: absolute;
+    left: calc(100% - 8px);
+    border-radius: 0 6px 6px 0;
+    right: -7px;
+    top: 0;
+    bottom: calc(50% - 8px);
+    transform: rotate(-30deg);
+}
+
+.btn:after {
+    top: calc(50% - 8px);
+    bottom: 0;
+    transform: rotate(30deg);
+}
+
+.btn-orange,
+.btn-orange:after,
+.btn-orange:before {
+    background: #FF5900;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 55px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+i.label {
+    background: url(../images/Group.png) no-repeat;
+    background-size: 100% 100%;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    color: #fff;
+    padding: 10px 25px;
+}
