@@ -1,0 +1,46 @@
+.interest {
+    background-color: #7224EA;
+    padding: 45px 0;
+}
+
+.interest__h2 {
+    color: #fff;
+}
+
+.interest__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.interest__block {
+    width: 50%;
+    flex: 0 0 auto;
+}
+
+.interest__title,
+.interest__text {
+    color: #fff;
+    max-width: 350px;
+}
+
+.interest__title {
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+}
+
+.interest__block {
+    display: flex;
+    align-items: center;
+}
+
+.interest__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    margin-right: 20px;
+}
