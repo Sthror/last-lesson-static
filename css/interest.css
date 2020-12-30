@@ -15,6 +15,8 @@
 .interest__block {
     width: 50%;
     flex: 0 0 auto;
+    display: flex;
+    align-items: center;
 }
 
 .interest__title,
@@ -29,11 +31,6 @@
     line-height: 2.1rem;
 }
 
-.interest__block {
-    display: flex;
-    align-items: center;
-}
-
 .interest__icon {
     display: flex;
     align-items: center;
@@ -43,4 +40,24 @@
     border: 2px solid #FFFFFF;
     border-radius: 50%;
     margin-right: 20px;
+    box-sizing: border-box;
+    flex: 0 0 auto;
+}
+
+@media(max-width:768px) {
+    .interest__block {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media(max-width:480px) {
+    .interest__h2 {
+        font-size: 6vw;
+        line-height: 1;
+        text-align: center;
+    }
+    .interest__block {
+        flex-direction: column;
+    }
 }
